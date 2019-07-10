@@ -5,8 +5,12 @@
    
   if num % 3
     puts 'Fizz'
-  else num % 5
+  elsif num % 5
     puts 'Buzz'
-  else num 
-   
+  elsif num % 3 && num % 5
+    puts 'FizzBuzz'
+  else 
+    puts 'nil'
+  end
+  
  end
