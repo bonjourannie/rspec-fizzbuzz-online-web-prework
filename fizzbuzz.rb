@@ -3,6 +3,10 @@
  
  def fizzbuzz (num)
    
-   if num %
+  if num % 3
+    puts 'Fizz'
+  else num % 5
+    puts 'Buzz'
+  else num 
    
  end
